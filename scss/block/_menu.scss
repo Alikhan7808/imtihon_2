@@ -1,0 +1,375 @@
+.menu_title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 28px;
+    color: var(--1);
+    margin-bottom: 16px;
+    text-align: center;
+    margin-top: 16px;
+}
+.menu{
+    padding-bottom: 24px;
+}
+
+.menu_text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--prime);
+    text-align: start;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.menu_strong {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--prime);
+}
+
+.menu_item {
+    border-radius: 16px;
+    width: 282px;
+    height: 611px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+}
+
+.menu_in_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.menu_in_item {
+    gap: 8px;
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.menu_in_item_1 {
+    gap: 8px;
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+.menu_in_title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 26px;
+    text-align: center;
+    color: var(--1);
+}
+
+.menu_in_img {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 16px;
+    margin-top: 9px;
+}
+
+.inside_text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--06);
+}
+
+.menu_inside_list {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 4px;
+    justify-content: space-between;
+}
+
+.inside_item {
+    display: flex;
+    gap: 5px;
+}
+
+.img_inside {
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+    fill: #52d116;
+}
+
+.px_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: line-through;
+    color: var(--05);
+}
+
+.px_strong {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 32px;
+    color: var(--1);
+}
+
+.px_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.b_korzinka {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    background: var(--prime);
+    padding: 18px 76px 18px 109px;
+    border: none;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    position: relative;
+
+    &:hover {
+        background-color: #6fd91c;
+        ;
+    }
+}
+
+.b_korzinka::after {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../img/iphone_29.svg);
+    width: 25px;
+    height: 24px;
+    top: 16px;
+    left: 76.5px;
+
+}
+
+.price_text_1 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--prime);
+}
+
+.price_text_2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: right;
+    color: var(--06);
+}
+
+.price_item {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+.menu_list {
+    display: none;
+}
+
+.menu_mobile_strong {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--prime);
+}
+
+.menu_mobile_list_1 {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 14px;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+
+.menu_mobile_item {
+    border-radius: 8px;
+    width: 259px;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+}
+
+
+.menu_mobile_img {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.menu_mobile_title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: var(--1);
+    margin-bottom: 12px;
+}
+
+.menu_inside_mobile_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.inside_mobile_item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.inside_mobile_text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--06);
+}
+
+.b_mobile_korzinka {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    padding: 9px 40px 7px 9px;
+    border: none;
+    position: relative;
+    border-radius: 8px;
+    background: var(--prime);
+
+    &:hover {
+        background-color: #52d116;
+        cursor: pointer;
+    }
+}
+
+.b_mobile_korzinka::after {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../img/iphone_31.svg);
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    left: 108px;
+}
+
+.px_mobile_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: line-through;
+    color: var(--05);
+}
+
+.px_mobile_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 8px;
+}
+
+.price_mobile_text_1 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--prime);
+}
+
+.price_mobile_text_2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    text-align: right;
+    color: var(--06);
+}
+
+.price_mobile_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.menu_mobile_list{
+    display: block;
+}
+
+
+
+@media screen and (min-width: 780px) {
+    .menu_mobile_list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 40px;
+        row-gap: 40px;
+        margin-left: 105px;
+        margin-right: 105px;
+    }
+    .menu{
+        padding-bottom: 40px;
+        padding-top: 24px;
+    }
+    .menu_title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 40px;
+        color: var(--1);
+        margin-bottom: 24px;
+    }
+
+    .menu_text {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        color: var(--prime);
+        margin-top: 32px;
+    }
+
+    .menu_mobile_item{
+        margin-bottom: 0;
+    }
+   
+}
+
+@media screen and (min-width: 1232px) {
+    .menu_mobile_list{
+        display: none;
+    }
+
+    .menu_list{
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+    }
+}

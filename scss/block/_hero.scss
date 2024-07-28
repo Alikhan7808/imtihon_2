@@ -1,0 +1,214 @@
+.hero {
+    background-color: #d0eafc;
+    background-size: cover;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 230px;
+    overflow: hidden;
+}
+
+.hero_block {
+    text-align: center;
+}
+
+.hero_strong {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #1e3240;
+}
+
+.hero_title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    color: #1e3240;
+}
+
+.hero_in_coment {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 9px;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.hero_buttun {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 31px;
+    position: relative;
+    cursor: pointer;
+    background-color: var(--prime);
+    &:hover{
+        background-color: #52d116;
+    }
+}
+
+.hero_buttun::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    left: -80px;
+    height: 24px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url(../img/iphone_20.svg);
+}
+
+.hero_buttun::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: -80px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url(../img/iphone_21.svg);
+}
+
+.hero_img {
+    position: relative;
+}
+
+.hero_imgs {
+    width: 269px;
+    transform: translate(-50%, -50%);
+    top: 176px;
+    height: 324px;
+    align-items: center;
+    position: absolute;
+}
+
+.hero_in_img {
+    width: 192px;
+    height: 45px;
+}
+
+@media screen and (min-width: 780px) {
+    .hero_in_img {
+        width: 308px;
+        height: 72px;
+    }
+
+    .hero_title {
+        font-size: 48px;
+    }
+
+    .hero_strong {
+        font-size: 32px;
+    }
+
+    .hero_buttun {
+        padding: 19px 40px;
+    }
+
+    .hero_buttun::after {
+        left: -170%;
+    }
+
+    .hero_buttun::before {
+        right: -170%;
+    }
+
+    .hero_imgs {
+        width: 269px;
+        height: 324px;
+    }
+}
+
+
+@media screen and (min-width: 1232px) {
+
+    .hero {
+        padding-bottom: 0;
+    }
+
+    .hero_block {
+        gap: 48px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
+    .hero_block::after{
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 10px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        background-image: url(../img/iphone_22.svg);
+    }
+
+    .hero_block::before{
+        content: "";
+        position: absolute;
+        right: 10px;
+        width: 40px;
+        height: 40px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        background-image: url(../img/iphone_23.svg);
+    }
+
+    .hero_buttun {
+        text-align: start;
+    }
+
+    .hero_in_coment {
+        justify-content: start;
+    }
+
+    .hero_buttun::before {
+        display: none;
+    }
+
+    .hero_buttun::after {
+        display: none;
+    }
+
+
+
+    .hero_in_img {
+        margin-bottom: 18px;
+    }
+
+    .hero_in_coment {
+        margin-bottom: 19px;
+    }
+
+    .hero_in_img {
+        width: 457px;
+        height: 106px;
+    }
+
+    .hero_imgs {
+        width: 398px;
+        height: 479px;
+        top: 300px;
+        right: -300px;
+    }
+
+    .hero_img {
+        width: 398px;
+        height: 479px;
+        top: 10px;
+        right: 100px;
+    }
+
+    .hero_coment {
+        text-align: start;
+    }
+
+}

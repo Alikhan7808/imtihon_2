@@ -1,0 +1,347 @@
+.fot_link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--05);
+    margin-bottom: 4px;
+}
+
+.fot_tat {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.footer_link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--1);
+}
+
+.footer_item {
+    margin-bottom: 8px;
+}
+
+.footer_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    color: var(--03);
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    margin-top: 4px;
+}
+
+.ipad_link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--1);
+}
+
+.ipad_item {
+    margin-bottom: 8px;
+}
+
+.ipad_list {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.what_str {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--1);
+    margin-bottom: 4px;
+}
+
+.what_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--06);
+    margin-bottom: 4px;
+}
+
+.what_inside_text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: var(--prime);
+}
+
+.what_item_1 {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.text_footer {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--1);
+    margin-bottom: 8px;
+}
+
+.div_footer {
+    margin-top: 16px;
+}
+
+.iz_div {
+    box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+}
+
+.iz_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iz_item {
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+
+}
+
+.div_footer {
+    margin-bottom: 24px;
+}
+
+.footer {
+    padding-top: 16px;
+}
+
+.iz_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--09);
+
+    &:hover {
+        background-color: var(--prime);
+        ;
+    }
+}
+
+.iz_div {
+    display: block;
+}
+
+.footer_mac{
+    display: none;
+}
+
+.fot_img {
+    width: 26px;
+    height: 30px;
+}
+
+.fot_coment {
+    display: block;
+}
+
+@media screen and (min-width: 780px) {
+    .fot_tat {
+        display: flex;
+        gap: 24px;
+        margin-left: 0;
+    }
+
+    .footer_text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: var(--03);
+        margin-left: 60px;
+        width: 441px;
+        margin-bottom: 32px;
+        text-align: start;
+    }
+
+    .fot_img {
+        width: 39px;
+        height: 45px;
+    }
+
+    .footer_list {
+        display: flex;
+        gap: 16px;
+    }
+
+    .footer_links {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: var(--1);
+    }
+
+    .footer_link {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: var(--1);
+    }
+
+    .ipad_list {
+        display: flex;
+        gap: 16px;
+    }
+
+    .footer_content {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .what_list {
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .what_item_1 {
+        margin-left: 69px;
+    }
+
+    .iz_list {
+        display: flex;
+        justify-content: space-between;
+        gap: 17px;
+    }
+
+    .iz_item {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 8px;
+        align-items: center;
+    }
+
+    .iz_text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 20px;
+        color: var(--09);
+    }
+
+    .iz_div {
+        display: block;
+    }
+
+    .fot_coment {
+        display: block;
+    }
+
+    .footer_mac{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1232px) {
+    .fot_coment {
+        display: none;
+    }
+
+    .footer_mac{
+        display: block;
+    }
+
+    .mac_link {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--05);
+        margin-top: 8px;
+    }
+
+    .mac_img {
+        margin-bottom: 27px;
+        width: 39px;
+        height: 45px;
+    }
+
+    .mac_sub_inner {
+        margin-bottom: 24px;
+    }
+
+    .mac_text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: var(--03);
+        text-align: start;
+    }
+
+    .footer {
+        padding-top: 49px;
+        padding-bottom: 40px;
+    }
+
+    .sam_links {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--1);
+        margin-bottom: 16px;
+    }
+
+    .sams_links {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--1);
+        margin-bottom: 16px;
+    }
+
+    .zato_str {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 40px;
+        color: var(--1);
+        margin-bottom: 4px;
+    }
+
+    .zato_text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: var(--06);
+        margin-bottom: 7px;
+    }
+
+    .zato_list {
+        display: flex;
+        gap: 24px;
+        margin-bottom: 36px;
+    }
+
+    .zato_inside_text {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--prime);
+    }
+
+    .sams_texts {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        color: var(--1);
+        margin-bottom: 16px;
+    }
+
+    .footer_mac{
+        display: flex;
+        justify-content: space-between;
+    }
+}

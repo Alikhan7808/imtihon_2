@@ -1,0 +1,46 @@
+.body_text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--prime);
+    margin-bottom: 16px;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.body{
+    padding-bottom: 24px;
+}
+
+
+@media screen and (min-width: 780px) {
+    .body_text {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        color: var(--prime);
+        margin-bottom: 16px;
+        margin-top: 24px;
+        margin-left: 25px;
+    }
+
+    .body{
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 1232px) {
+    .body_text {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        color: var(--prime);
+        margin-bottom: 16px;
+        margin-top: 24px;
+        margin-left: 0px;
+    }
+
+    .body{
+        padding-bottom: 40px;
+    }
+}

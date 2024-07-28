@@ -1,0 +1,111 @@
+.about {
+    background-image: url(../img/iphone_33.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;
+    padding-top: 24px;
+    padding-right: 29px;
+    padding-left: 105px;
+    padding-bottom: 24px;
+}
+
+.about_title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.about_text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.about_btn {
+    border-radius: 8px;
+    background: var(--prime);
+    padding: 10px 40px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #52d116;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .about_title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 32px;
+        color: #fff;
+        margin-bottom: 8px;
+        width: 267px;
+    }
+
+    .about_text {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 16px;
+    }
+
+    .about_btn {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        color: #fff;
+        padding: 18px 40px;
+        border-radius: 8px;
+        background: var(--prime);
+    }
+
+    .about {
+        padding-top: 40px;
+        padding-right: 279px;
+        padding-left: 222px;
+        padding-bottom: 40px;
+        background-image: url(../img/iphone_34.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1232px) {
+    .about {
+        padding-top: 84px;
+        padding-left: 454px;
+        padding-bottom: 84px;
+        background-image: url(../img/iphone_32.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+        background-size: cover;
+    }
+
+    .about_title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 56px;
+        width: 467px;
+        color: #fff;
+        margin-bottom: 16px;
+    }
+
+    .about_text {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        color: #fff;
+        margin-bottom: 24px;
+    }
+}
